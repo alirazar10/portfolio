@@ -1,7 +1,11 @@
 import React from 'react'
 import WorkImg from '../assets/projects/workImg.jpeg'
 import Realestate from '../assets/projects/realestate.jpg'
+import Title from '../utils/Title';
+
 const Works = () => {
+    Title('Works - Ali Reza')
+
   return (
     <div name='works'  className='w-full md:min-h-screen bg-[#0a192f]'>
         <div className='max-w-[1000px] mx-auto flex flex-col justify-center w-full h-full text-gray-300'>

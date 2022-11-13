@@ -7,7 +7,10 @@ import Node from '../assets/node.png'
 import GitHub from '../assets/github.png'
 import Tailwind from '../assets/tailwind.png'
 import Mongo from '../assets/mongo.png'
+import Title from '../utils/Title';
+
 const Skills = () => {
+    Title('Skills - Ali Reza')
   return (
     <div name='skills' className='w-full min-h-screen bg-[#0a192f] text-gray-300'>
         {/* container */} 

@@ -1,6 +1,9 @@
 import React from 'react'
+import Title from '../utils/Title';
 
 const Contact = () => {
+    Title('Contact - Ali Reza')
+
   return (
     <div name='contact' className='w-full min-h-screen bg-[#0a192f] flex justify-center items-center p-4'>
         <form action="" className='flex flex-col max-w-[500px] w-full'>
