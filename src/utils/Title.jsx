@@ -1,10 +1,10 @@
 import { useEffect } from 'react';
 
-function Title(titl) {
+function Title(title) {
   useEffect(() => {
-    document.title = titl;
+    document.title = title;
     document.title = "Ali Reza";
-  }, []);
+  });
 }
 
 export default Title;
