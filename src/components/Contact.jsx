@@ -6,7 +6,7 @@ const Contact = () => {
 
   return (
     <div name='contact' className='w-full min-h-screen bg-[#0a192f] flex justify-center items-center p-4'>
-        <form  name="contact" method="POST" netlify className='flex flex-col max-w-[500px] w-full'>
+        <form  name="contact_form" method="POST" netlify className='flex flex-col max-w-[500px] w-full'>
             <div className='pb-8'>
                 <p className='text-4xl font-bold inline border-b-4 border-[#ff5722] text-gray-300'>Contact</p>
                 <p className='text-gray-300 py-4'>Submit the form below or shoot me an email - aliraza.r10@gmail.com</p>
