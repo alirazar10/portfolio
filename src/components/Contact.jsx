@@ -6,7 +6,7 @@ const Contact = () => {
 
   return (
     <div name='contact' className='w-full min-h-screen bg-[#0a192f] flex justify-center items-center p-4'>
-        <form  name="contactForm" method="POST" data-netlify="true" className='flex flex-col max-w-[500px] w-full'>
+        <form  name="contactForm" method="POST"  className='flex flex-col max-w-[500px] w-full'>
         <input type="hidden" name="form-name" value="contactForm" />
             <div className='pb-8'>
                 <p className='text-4xl font-bold inline border-b-4 border-[#ff5722] text-gray-300'>Contact</p>
