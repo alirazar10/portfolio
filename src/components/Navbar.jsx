@@ -13,7 +13,7 @@ const Navbar = () => {
     <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192b] text-gray-300'>
       <div>
         {/* <img src={Logo} alt="Logo" className='w-28'/> */}
-        <h2 className='text-[#ff5722] text-3xl'> Ali Reza </h2>
+        <h2 className='text-[#ff5722] text-2xl font-bold'> Rezayee </h2>
       </div>
       {/* menu */}
       <div>
@@ -90,11 +90,11 @@ const Navbar = () => {
             Facebook <FaFacebook size={30}/>
             </a>
           </li>
-          <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#1DA1F2]'>
+          {/* <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#1DA1F2]'>
             <a href="/" className='flex justify-between items-center w-full text-gray-300'>
               Twitter <FaTwitter size={30}/>
             </a>
-          </li>
+          </li> */}
           <li className='w-[160px] h-[60px] flex justify-around items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#0d1117]'>
             <a href="/" className='flex justify-between items-center w-full text-gray-300'>
               GitHub <FaGithub size={30}/>

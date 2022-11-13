@@ -7,9 +7,9 @@ Title('Home - Ali Reza');
   return (
     <div name='home' className=' w-full h-screen bg-[#0a192b]'>
         <div className='max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full'>
-            <p className='text-[#ff5722]'>Hi, my name is </p>
-            <h1 className='text-4xl sm:text-7xl font-bold text-[#ccd6f6]'>Ali</h1>
-            <h2 className='text-4xl sm:text-7xl font-bold text-[#8892b0]'>I am a Full Stack Developer.</h2>
+            <p className='text-[#ccd6f6] sm:text-2xl '>Hi, my name is </p>
+            <h1 className='text-4xl sm:text-7xl font-bold text-[#ff5722]'>Ali Reza</h1>
+            <h2 className='text-4xl sm:text-7xl font-bold text-[#8892b0]'>A Full Stack Developer.</h2>
             <p className='text-[#8892b0] py-7 max-w-[700px]'>I am a Full Stack Developer specializing in building (and occasionally designing) 
                 exceptional digital experiences. 
                 Currently, I am focused on building responsive full-stack web application.</p>
