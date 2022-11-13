@@ -1,8 +1,8 @@
 import { useEffect } from 'react';
 
-function Title(title) {
+function Title(titl) {
   useEffect(() => {
-    document.title = title;
+    document.title = titl;
     document.title = "Ali Reza";
   }, []);
 }
