@@ -1,7 +1,7 @@
 import React from 'react'
-import WorkImg from '../assets/projects/workImg.jpeg'
-import Realestate from '../assets/projects/realestate.jpg'
-import Title from '../utils/Title';
+import WorkImg from '@assets/projects/workImg.jpeg'
+import Realestate from '@assets/projects/realestate.jpg'
+import Title from '@utils/Title';
 
 const Works = () => {
     Title('Works - Ali Reza')
@@ -15,24 +15,24 @@ const Works = () => {
             </div>
             {/* container */}
             <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-4'>
-                <div style={{backgroundImage: `url(${WorkImg})`}}
-                    className='shadow-lg shadow-[#040c16] group container rounded rounded-md flex justify-center items-center mx-auto content-div'>
+                <div style={{backgroundImage: `url(${WorkImg.src})`}}
+                    className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
                     {/* Hover Effects */}
                     <div className='opacity-0 group-hover:opacity-100 '>
                         <span className='text-2xl font-bold text-white tracking-wider'>
                             React JS Application
                         </span>
                         <div>
-                            <a href="/">
+                            <a href="#">
                                 <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700'>Demo</button>
                             </a>
-                            <a href="/">
+                            <a href="#">
                                 <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700'>Code</button>
                             </a>
                         </div>
                     </div>
                 </div>
-                <div style={{backgroundImage: `url(${Realestate})`}}
+                <div style={{backgroundImage: `url(${Realestate.src})`}}
                     className='shadow-lg shadow-[#040c16] group container rounded rounded-md flex justify-center items-center mx-auto content-div'>
                     {/* Hover Effects */}
                     <div className='opacity-0 group-hover:opacity-100 '>
@@ -40,16 +40,16 @@ const Works = () => {
                             React JS Application
                         </span>
                         <div>
-                            <a href="/">
+                            <a href="#">
                                 <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700'>Demo</button>
                             </a>
-                            <a href="/">
+                            <a href="#">
                                 <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700'>Code</button>
                             </a>
                         </div>
                     </div>
                 </div>
-                <div style={{backgroundImage: `url(${WorkImg})`}}
+                <div style={{backgroundImage: `url(${WorkImg.src})`}}
                     className='shadow-lg shadow-[#040c16] group container rounded rounded-md flex justify-center items-center mx-auto content-div'>
                     {/* Hover Effects */}
                     <div className='opacity-0 group-hover:opacity-100 '>
@@ -57,16 +57,16 @@ const Works = () => {
                             React JS Application
                         </span>
                         <div>
-                            <a href="/">
+                            <a href="#">
                                 <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700'>Demo</button>
                             </a>
-                            <a href="/">
+                            <a href="#">
                                 <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700'>Code</button>
                             </a>
                         </div>
                     </div>
                 </div>
-                <div style={{backgroundImage: `url(${Realestate})`}}
+                <div style={{backgroundImage: `url(${Realestate.src})`}}
                     className='shadow-lg shadow-[#040c16] group container rounded rounded-md flex justify-center items-center mx-auto content-div'>
                     {/* Hover Effects */}
                     <div className='opacity-0 group-hover:opacity-100 '>
@@ -74,16 +74,16 @@ const Works = () => {
                             React JS Application
                         </span>
                         <div>
-                            <a href="/">
+                            <a href="#">
                                 <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700'>Demo</button>
                             </a>
-                            <a href="/">
+                            <a href="#">
                                 <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700'>Code</button>
                             </a>
                         </div>
                     </div>
                 </div>
-                <div style={{backgroundImage: `url(${WorkImg})`}}
+                <div style={{backgroundImage: `url(${WorkImg.src})`}}
                     className='shadow-lg shadow-[#040c16] group container rounded rounded-md flex justify-center items-center mx-auto content-div'>
                     {/* Hover Effects */}
                     <div className='opacity-0 group-hover:opacity-100 '>
@@ -91,16 +91,16 @@ const Works = () => {
                             React JS Application
                         </span>
                         <div>
-                            <a href="/">
+                            <a href="#">
                                 <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700'>Demo</button>
                             </a>
-                            <a href="/">
+                            <a href="#">
                                 <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700'>Code</button>
                             </a>
                         </div>
                     </div>
                 </div>
-                <div style={{backgroundImage: `url(${Realestate})`}}
+                <div style={{backgroundImage: `url(${Realestate.src})`}}
                     className='shadow-lg shadow-[#040c16] group container rounded rounded-md flex justify-center items-center mx-auto content-div'>
                     {/* Hover Effects */}
                     <div className='opacity-0 group-hover:opacity-100 '>
@@ -108,10 +108,10 @@ const Works = () => {
                             React JS Application
                         </span>
                         <div>
-                            <a href="/">
+                            <a href="#">
                                 <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700'>Demo</button>
                             </a>
-                            <a href="/">
+                            <a href="#">
                                 <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700'>Code</button>
                             </a>
                         </div>

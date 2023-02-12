@@ -2,10 +2,12 @@ import React, {useState} from 'react';
 import {FaBars, FaFacebook, FaGithub, FaLinkedin, FaTimes} from "react-icons/fa";
 import { HiOutlineMail } from 'react-icons/hi';
 import {BsFillPersonLinesFill} from 'react-icons/bs';
-// import Logo from "../assets/logo.png";
 import { Link } from 'react-scroll';
 
-const Navbar = () => {
+// import Logo from "../assets/logo.png";
+
+
+export default function Navbar () {
   const [nav, setNav] = useState(false);
 
   const handleNavClick = () => setNav(!nav);
@@ -13,7 +15,7 @@ const Navbar = () => {
     <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192b] text-gray-300'>
       <div>
         {/* <img src={Logo} alt="Logo" className='w-28'/> */}
-        <h2 className='text-[#ff5722] text-2xl font-bold'> Rezayee </h2>
+        <h2 className='text-[#ff5722] text-2xl font-bold'> <span className='text-4xl font-extrabold '> {`<`}<span className='text-4xl font-normal text-[#8892b0]'>AR</span>{`/>`} </span></h2>
       </div>
       {/* menu */}
       <div>
@@ -81,12 +83,12 @@ const Navbar = () => {
       <div className='hidden lg:flex fixed flex-col top-[30%] left-0'>
         <ul>
           <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#0A66C2]'>
-            <a href="/" className='flex justify-between items-center w-full text-gray-300'>
+            <a href="#" className='flex justify-between items-center w-full text-gray-300'>
               LinkedIn <FaLinkedin size={30}/>
             </a>
           </li>
           <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#1877f2]'>
-            <a href="/" className='flex justify-between items-center w-full text-gray-300'>
+            <a href="#" className='flex justify-between items-center w-full text-gray-300'>
             Facebook <FaFacebook size={30}/>
             </a>
           </li>
@@ -96,17 +98,17 @@ const Navbar = () => {
             </a>
           </li> */}
           <li className='w-[160px] h-[60px] flex justify-around items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#0d1117]'>
-            <a href="/" className='flex justify-between items-center w-full text-gray-300'>
+            <a href="#" className='flex justify-between items-center w-full text-gray-300'>
               GitHub <FaGithub size={30}/>
             </a>
           </li>
           <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#212121]'>
-            <a href="/" className='flex justify-between items-center w-full text-gray-300'>
+            <a href="#" className='flex justify-between items-center w-full text-gray-300'>
               EMail<HiOutlineMail size={30}/>
             </a>
           </li>
           <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#424242]'>
-            <a href="/" className='flex justify-between items-center w-full text-gray-300 '>
+            <a href="#" className='flex justify-between items-center w-full text-gray-300 '>
               Resume<BsFillPersonLinesFill size={30}/>
             </a>
           </li>
@@ -115,5 +117,3 @@ const Navbar = () => {
     </div>
   )
 }
-
-export default Navbar
